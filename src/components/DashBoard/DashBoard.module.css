@@ -1,0 +1,33 @@
+.dashboardcontainer{
+    display: flex;
+    background-color: rgb(247, 245, 245);
+}
+
+
+.dashboardcharts{
+    height: 83vh;
+    width: 20vw;
+    margin-top: 20px;
+}
+
+.earningstate{
+    height: 22vh;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-align: left;
+    padding: 10px 15px;
+    color: var(--color-white);
+    background-color: #8676FF;
+}
+
+.bubblechart{
+    width: 80vw;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background-color: var(--color-pail-white);
+    
+}
+

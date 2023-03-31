@@ -1,0 +1,10 @@
+.footer{
+    height: 3vh;
+    background-color: var(--color-white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family:'Roboto', sans-serif;
+}

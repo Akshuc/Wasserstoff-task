@@ -1,0 +1,21 @@
+.searchbar{
+    height: 40px;
+    width: 30vw;
+    border-style: none;
+    padding-left: 10px;
+    background-color: var(--color-pail-white);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.wrapper{
+    display: flex;
+}
+
+.buttonIcon{
+    cursor: pointer;
+    border-style: none;
+    background-color: var(--color-pail-white);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 40px;
+}

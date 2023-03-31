@@ -1,0 +1,41 @@
+.homepage{
+    height: 86vh;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: relative;
+}
+.title{
+    font-weight: bold;
+    color: var(--color-black);
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.circulerbar{
+    width: 30%;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    margin-bottom: 30px;
+}
+
+.columnchart{
+    height: 130px;
+    background-color: var(--color-white);
+    border-radius: 10px;
+    display: flex;
+    z-index: 100;
+    position: relative;
+    top: 40px;
+}
+
+.worldmap{
+    height: 105%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}

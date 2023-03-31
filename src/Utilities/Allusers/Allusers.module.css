@@ -1,0 +1,25 @@
+.alluserscard{
+    height: 15%;
+    width: 20%;
+    border-radius: 10px;
+}
+
+.users{
+    display: flex;
+    align-items: center;
+}
+
+.allusers{
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.allusersdetails{
+    font-size: 0.8em;
+    padding-right: 10px;
+}
+
+.totalusers{
+    font-size: 2.5em;
+    text-align: left;
+}

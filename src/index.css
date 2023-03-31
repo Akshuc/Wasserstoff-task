@@ -1,0 +1,56 @@
+:root {
+  /* Global variables to be defined here */
+  --color-primary: #34C94B;
+  --color-black: #121212;
+  --color-white: #FFFFFF;
+  --color-pail-white : #E2E4F0;
+  --color-purple: #8676FF;
+  --color-blue:#66C8FF;
+  --color-orange:#FF9066;
+  --color-white-pro:#E2E4F0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html,
+body {
+  font-family: 'Poppins', sans-serif;
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}

@@ -1,0 +1,23 @@
+.navbar{
+    display: flex;
+    width: 100vw;
+    height: 7vh;
+    background-color: var(--color-white);
+    justify-content: space-between;
+    align-items: center;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    padding: 10px 20px;
+}
+
+.userSetting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.userSetting img{
+    padding-left: 20px;
+}
+

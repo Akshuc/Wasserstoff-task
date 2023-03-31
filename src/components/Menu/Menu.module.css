@@ -1,0 +1,25 @@
+/* .menulist{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+ul{
+    padding: 0px;
+    display: flex;
+    justify-content:space-around;
+    text-decoration: none ;
+    list-style: none;
+}
+
+li{
+    padding-left: 47px;
+    font-weight: 300;
+}
+
+li:hover{
+    color: var(--color-blue);
+    cursor: pointer;
+    
+    
+}

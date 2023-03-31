@@ -1,0 +1,200 @@
+.sec-page-box {
+    position: fixed;
+    border: 2px solid white;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 20px;
+    gap: 25px;
+    width: 750px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    background: #ffffff;
+}
+
+.sec-page-box .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.sec-page-box .nav .box-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    color: #44444f;
+    font-size: 12px;
+}
+
+.sec-page-box .nav .box-text h1 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.114969px;
+    color: #171725;
+}
+
+.sec-page-box .nav .box-list .fst-child,
+.sec-child,
+.thr-child,
+.frt-child {
+    display: flex;
+    align-items: center;
+    width: 85px;
+    gap: 6px;
+}
+
+.sec-page-box .nav .box-list .fst-child>div {
+    width: 12px;
+    height: 12px;
+
+    background: #a46ce9;
+    border-radius: 6.89813px;
+}
+
+.sec-page-box .nav .box-list .sec-child>div {
+    width: 12px;
+    height: 12px;
+
+    background: #fae634;
+    border-radius: 6.89813px;
+}
+
+.sec-page-box .nav .box-list .thr-child>div {
+    width: 12px;
+    height: 12px;
+
+    background: #fc717d;
+    border-radius: 6.89813px;
+}
+
+.sec-page-box .nav .box-list .frt-child>div {
+    width: 12px;
+    height: 12px;
+
+    background: #695dfb;
+    border-radius: 6.89813px;
+}
+
+.chart {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.chart .y-axis {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: flex-start;
+}
+
+.chart .y-axis p,
+.chart .x-axis p {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: 0.44px;
+    color: #383874;
+    opacity: 0.6;
+}
+
+.chart .x-axis {
+    display: flex;
+    gap: 2rem;
+    padding-left: 2rem;
+}
+
+.chart .blue-bubble {
+    position: absolute;
+    width: 195.98px;
+    height: 198px;
+    left: 30%;
+    top: 6%;
+    background: #695dfb;
+    mix-blend-mode: multiply;
+    box-shadow: 0px 109px 80px rgba(132, 13, 226, 0.14),
+        0px 45.5376px 33.4221px rgba(132, 13, 226, 0.10064),
+        0px 24.3466px 17.869px rgba(132, 13, 226, 0.083455),
+        0px 13.6485px 10.0172px rgba(132, 13, 226, 0.07),
+        0px 7.24861px 5.32008px rgba(132, 13, 226, 0.056545),
+        0px 3.01631px 2.21381px rgba(132, 13, 226, 0.0393604);
+
+    border-radius: 50%;
+    font-weight: 600;
+    font-size: 8px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chart .red-bubble {
+    position: absolute;
+    width: 132.58px;
+    height: 132px;
+    left: 17%;
+    top: 31%;
+
+    background: #ff505d;
+    mix-blend-mode: multiply;
+    opacity: 0.8;
+    box-shadow: 0px 100px 80px rgba(255, 43, 43, 0.15),
+        0px 46.233px 36.9864px rgba(255, 43, 43, 0.111251),
+        0px 26.4535px 21.1628px rgba(255, 43, 43, 0.0940171),
+        0px 16.0571px 12.8457px rgba(255, 43, 43, 0.0809922),
+        0px 9.67509px 7.74008px rgba(255, 43, 43, 0.0690078),
+        0px 5.38772px 4.31018px rgba(255, 43, 43, 0.0559829),
+        0px 2.31722px 1.85378px rgba(255, 43, 43, 0.0387487);
+
+    border-radius: 50%;
+    font-weight: 600;
+    font-size: 8px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chart .yellow-bubble {
+    position: absolute;
+    width: 114.51px;
+    height: 112px;
+    left: 74%;
+    top: 25%;
+
+    background: #fae634;
+    mix-blend-mode: multiply;
+
+    border-radius: 50%;
+    font-weight: 600;
+    font-size: 8px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.model {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+}
